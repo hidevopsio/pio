@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/kataras/pio"
-	_ "github.com/kataras/pio/_examples/integrations/logrus"
+	"github.com/hidevopsio/pio"
+	_ "github.com/hidevopsio/pio/_examples/integrations/logrus"
 )
 
 func main() {

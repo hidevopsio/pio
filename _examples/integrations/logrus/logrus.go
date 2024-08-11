@@ -2,29 +2,25 @@
 Package logrus registers the global logrus logger to the pio ecosystem,
 install logrus first:
 
-
 	$ go get github.com/
 
-
 Example Code:
-
 
 	package main
 
 	import (
-		"github.com/kataras/pio"
-		_ "github.com/kataras/pio/_examples/integrations/logrus"
+		"github.com/hidevopsio/pio"
+		_ "github.com/hidevopsio/pio/_examples/integrations/logrus"
 	)
 
 	func main() {
 		pio.Print("This is an info message that will be printed to the logrus' output")
 	}
-
 */
 package logrus
 
 import (
-	"github.com/kataras/pio"
+	"github.com/hidevopsio/pio"
 	"github.com/sirupsen/logrus"
 )
 

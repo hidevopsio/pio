@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/kataras/pio"
+	"github.com/hidevopsio/pio"
 	"github.com/sirupsen/logrus"
 )
 

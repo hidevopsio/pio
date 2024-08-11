@@ -3,7 +3,7 @@ package main
 import (
 	"os"
 
-	"github.com/kataras/pio"
+	"github.com/hidevopsio/pio"
 )
 
 // Hijackers can be used to intercept a print operation (per printer),

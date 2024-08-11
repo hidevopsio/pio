@@ -5,7 +5,7 @@ os:
 go:
   - go1.8
   - tip
-go_import_path: github.com/kataras/pio
+go_import_path: github.com/hidevopsio/pio
 install:
   - go get ./...
 script:
